@@ -1,0 +1,4 @@
+clear
+rm datalogic_wrap.cxx
+swig -lua -c++ datalogic.i
+gcc -fmax-errors=1 -std=c++17 -shared -fPIC -O2 -o dl.so datalogic_wrap.cxx -lstdc++ -lluajit-5.1

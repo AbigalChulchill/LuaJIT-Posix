@@ -1,0 +1,32 @@
+language: cpp
+compiler:
+  - gcc
+#  - clang
+branches:
+  only:
+    - master
+env:
+  - OPTIONS="-DBUILDNAME=travisci-debug-build -DCMAKE_BUILD_TYPE=Debug -DDIRENTCPP_WITH_TESTS=ON"
+  - OPTIONS="-DBUILDNAME=travisci-release-build -DCMAKE_BUILD_TYPE=Release -DDIRENTCPP_WITH_TESTS=ON"
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ../ $OPTIONS
+script:
+  - ctest -V -D ExperimentalConfigure -D ExperimentalBuild -D ExperimentalTest
+#after_success:
+#  - ctest -D ExperimentalCoverage -D ExperimentalMemCheck -D ExperimentalSubmit
+#after_failure:
+#  - ctest -D ExperimentalSubmit
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#informave"
+    use_notice: true
+    skip_join: true
+    template:
+      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}"
+      - "Build details : %{build_url}"
+#matrix:
+#  allow_failures:
+#    - compiler: clang

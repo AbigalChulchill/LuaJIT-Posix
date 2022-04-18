@@ -1,0 +1,14 @@
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/curlpp.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/curlpp_static.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/edit_cache.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/rebuild_cache.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/list_install_components.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/install.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/install/local.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/CMakeFiles/install/strip.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/extras/CMakeFiles/edit_cache.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/extras/CMakeFiles/rebuild_cache.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/extras/CMakeFiles/list_install_components.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/extras/CMakeFiles/install.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/extras/CMakeFiles/install/local.dir
+/home/quake/Projects/Current/SimpleDSP/seaweed/curlpp/build/extras/CMakeFiles/install/strip.dir
